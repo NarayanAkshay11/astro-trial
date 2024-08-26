@@ -6,33 +6,36 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
 const menuitems = [
   {
-    title: "Features",
+    title: "About",
     path: "#",
     children: [
-      { title: "Action", path: "/" },
-      { title: "Another action", path: "#" },
-      { title: "Dropdown Submenu", path: "#" },
+      { title: "Team Archimedes", path: "/" },
+      { title: "RobotX", path: "#" },
       { title: "404 Page", path: "/404" },
     ],
   },
   {
-    title: "Pricing",
+    title: "ASV",
     path: "/pricing",
   },
   {
-    title: "About",
+    title: "Team",
     path: "/about",
   },
   {
-    title: "Blog",
-    path: "/blog",
+    title: "Papers",
+    path: "",
+    children: [
+      { title: "Individual", path: "/blog" },
+      { title: "Team", path: "/blog" },
+    ],
   },
   {
     title: "Contact",
     path: "/contact",
   },
   {
-    title: "Pro Version",
+    title: "Sponsors",
     badge: true,
     path: "https://astroship-pro.web3templates.com/",
   },
